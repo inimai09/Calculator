@@ -13,7 +13,7 @@ public class MinimalistCalculator implements ActionListener {
     JButton addButton, subButton, mulButton, divButton, delButton, clrButton, equalButton, decButton;
 
     MinimalistCalculator() {
-        JFrame frame = new JFrame("iPhone Style Calculator");
+        JFrame frame = new JFrame("Calculator");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(360, 500);
         frame.setLayout(null);
